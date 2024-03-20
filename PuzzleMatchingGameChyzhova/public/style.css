@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'led';
+    src: url('fonts/digital-7.ttf') format('truetype');
+}
+
+body, input, button, div {
+    font-family: 'led', monospace;
+    background-color: #fce0a7;
+    color: #b86e38;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px;
+    font-size: 100px;
+}
+
+button {
+    padding: 10px;
+    font-size: 30px;
+}
+
+#solution {
+    margin-top: 20px;
+    font-size: 100px;
+}
+
+#additionalSolution, #examples {
+    margin-top: 20px;
+    font-size: 50px;
+    color: #873e23
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #873e23
+}
+
+
+
